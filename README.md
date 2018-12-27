@@ -1,2 +1,2 @@
-# mikesite
-My new personal site :^)
+# MikeSite
+[Check it out](https://www.mhennelly.com)
