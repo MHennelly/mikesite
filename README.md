@@ -1,4 +1,4 @@
 # MikeSite
 https://www.mhennelly.com
-## Wait, where's the CSS?
+## Wait, this website has no CSS?
 ![who_cares.exe](brule.gif)
