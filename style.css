@@ -1,7 +1,8 @@
 body {
-    max-width: 512px;
+    max-width: 612px;
     margin: auto;
-    background-color: palegoldenrod;
+    padding: 50px;
+    background-color: khaki;
     color: dodgerblue;
 }
 
@@ -13,6 +14,10 @@ h2 {
     text-align: center;
 }
 
+h4 {
+    text-align: center;
+}
+
 img {
     max-width: 256px;
     display: block;
@@ -20,5 +25,14 @@ img {
 }
 
 a {
-    color: mediumspringgreen;
+    color: #f8577c;
+    text-decoration: none;
+}
+
+p {
+    font-style: italic;
+}
+
+#non-it {
+    font-style: normal;
 }
