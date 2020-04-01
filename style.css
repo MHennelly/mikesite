@@ -1,27 +1,25 @@
 body {
-    max-width: 612px;
-    margin: auto;
-    padding: 50px;
     background-color: khaki;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.container {
+    max-width: 512px;
+    padding: 1%;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-color: palegoldenrod;
     color: dodgerblue;
+    border-radius: 20 px;
+    box-shadow: 0 .5em 1em rgba(0,0,0,0.3);    
 }
 
-h1 {
+h1, h2, h4 {
     text-align: center;
-}
-
-h2 {
-    text-align: center;
-}
-
-h4 {
-    text-align: center;
-}
-
-img {
-    max-width: 256px;
-    display: block;
-    margin: 0 auto;
 }
 
 a {
@@ -29,10 +27,15 @@ a {
     text-decoration: none;
 }
 
-p {
+#info {
     font-style: italic;
 }
 
-#non-it {
-    font-style: normal;
+img {
+     border:solid 2px;
+     border-color: dodgerblue;
+     max-height:256px;
+     margin: auto;
+     display: block;
 }
+
