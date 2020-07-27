@@ -1,3 +1,5 @@
+@import url('https://css.gg/home-alt.css');
+
 body {
     background-color: khaki;
     padding-left: 5%;
@@ -6,20 +8,28 @@ body {
 
 .container {
     max-width: 512px;
-    padding: 1%;
-    padding-left: 5%;
-    padding-right: 5%;
+    background-color: palegoldenrod;
     margin: auto;
     margin-top: 5%;
-    margin-bottom: 5%;
-    background-color: palegoldenrod;
     color: dodgerblue;
     border-radius: 20 px;
-    box-shadow: 0 .5em 1em rgba(0,0,0,0.3);    
+    box-shadow: 0 .5em 1em rgba(0,0,0,0.3);
 }
 
-h1, h2, h4 {
+.content {
+    padding: 5%;
+}
+
+h1 {
     text-align: center;
+}
+
+h2, h4 {
+    text-align: left;
+}
+
+h2 {
+    text-decoration: underline;
 }
 
 a {
@@ -39,3 +49,12 @@ img {
      display: block;
 }
 
+
+a:hover {
+    color: #00cc66;
+}
+
+.home {
+    padding-left: 2%;
+    padding-top: 4%;
+}
